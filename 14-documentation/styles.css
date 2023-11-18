@@ -1,0 +1,102 @@
+* {
+  color: rgb(215,215,230);
+  font-family: Arial black, Tahoma;
+}
+
+header {
+    margin: 5px;
+    text-align: center;
+    font-size: 24px;
+
+    text-transform: uppercase;
+    background: #2E2F45;
+    color: white;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+    padding: 10px 10px;
+}
+
+.es{
+    position: relative;
+	right: 25px;
+}
+
+#navbar ul {
+    height: 100%;
+    padding: 10;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+@media (max-width: 2000px) and (min-width: 10px) {
+  #navbar{ 
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+  }
+
+#navbar li {
+    border-top: 20px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    background: #2E2F45;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+    padding: 5px 10px;
+	right:  50px;
+}
+
+#navbar a {
+    display: block;
+    padding: 4px 5px;
+    color: aliceblue#4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav {
+    background: linear-gradient(to left, pink, powderblue);
+    display: block;
+}
+
+#main-doc {
+    background: linear-gradient(to left, powderblue, pink);
+    position: absolute;
+    margin-left: 290px;
+    padding: 10px;
+    top: 0;
+    margin-bottom: 100px;
+}
+section {
+    display: block;
+}
+
+article {
+  background: #2E2F45;
+  display: table;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+html, body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+
+code {
+    display: block;
+    line-height: 3;
+    padding: 5px;
+    margin: 10px;
+}
