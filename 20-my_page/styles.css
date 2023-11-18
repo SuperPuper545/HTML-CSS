@@ -1,0 +1,586 @@
+html { overflow-x: hidden; }
+
+body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.nav {
+	width: 100%;
+	background: linear-gradient(90deg, rgba(10, 10, 10, 70), rgba(20, 20, 20, 70));
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	z-index: 4;
+}
+
+.ground-day {
+	width: 100%;
+	height: 52.08vw;
+	background: radial-gradient( rgb(192, 255, 255), rgb(88, 175, 236));
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.ground-night {
+	width: 100%;
+	height: 46.88vw;
+	position: absolute;
+	background: radial-gradient(white,rgb(230, 230, 255));
+	top: 52.08vw;
+	left: 0%;
+}
+
+.projects{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 3;
+}
+
+.ground-info{
+	width: 100%;
+	height: 46.88vw;
+	position: absolute;
+	top: 98.96vw;
+	background: radial-gradient(rgb(30, 157, 43), rgb(5, 115, 5));
+	left: 0%;
+}
+
+.well {
+	position: absolute;
+	font-size: 3.13vw;
+	font-family: Impact;
+	top: 25%;
+	left: 42%;
+	background: linear-gradient(180deg, rgb(20, 20, 20) 33%, rgb(40, 40, 40) 66%, rgb(80, 80, 80));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: black;
+	display: table;
+	margin: 20px auto;
+	z-index: 4;
+}
+
+.come {
+	position: absolute;
+	font-size: 1.56vw;
+	font-family: Impact;
+	top: 33%;
+	left: 46%;
+	background: linear-gradient(180deg, rgb(40, 40, 40) 33%, rgb(80, 80, 80) 66%, rgb(120, 120, 120));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: black;
+	display: table;
+	margin: 20px auto;
+}
+
+.sun {
+	width: 5.21vw;
+	height: 5.21vw;
+	background-color: rgb(255, 230, 130);
+	position: absolute;
+	border-radius: 50%;
+	top: 45%;
+	left: 47%;
+}
+
+.cloud1 {
+	width: 7.81vw;
+	height: 5.21vw;
+	position: absolute;
+	top: 100px;
+	left: -150px;
+	opacity: .7;
+	animation-name: cloudf;
+	animation-duration: 70s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.cloud2 {
+	width: 7.81vw;
+	height: 5.21vw;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	opacity: .8;
+	animation-name: cloudf;
+	animation-duration: 50s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.cloud3 {
+	width: 7.81vw;
+	height: 5.21vw;
+	position: absolute;
+	top: 270px;
+	left: -500px;
+	opacity: .9;
+	animation-name: cloudf;
+	animation-duration: 90s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.cloud-center {
+	width: 4.17vw;
+	height: 2.34vw;
+	position: absolute;
+	background: linear-gradient(to bottom,white,rgb(240, 235, 240));
+	border-radius: 90% 90% 70% 70%;
+	top: 1.56vw;
+	left: 1.04vw;
+}
+
+.cloud-right {
+	width: 5.21vw;
+	height: 3.39vw;
+	position: absolute;
+	background: linear-gradient(to bottom,white,rgb(240, 240, 255));
+	border-radius: 70% 70% 35% 35%;
+	top: 1.82vw;
+	left: 2.60vw;
+}
+
+.cloud-left {
+	width: 5.21vw;
+	height: 2.60vw;
+	position: absolute;
+	background: linear-gradient(90deg,white,rgb(240, 240, 255));
+	border-radius: 70% 70% 10% 15%;
+	top: 2.60vw;
+}
+
+.grass1 {
+	width: 3.65vw;
+	height: 2.60vw;
+	position: absolute;
+	top: 4%;
+	left: 5%;
+	animation-name: grass;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.grass2 {
+	width: 3.65vw;
+	height: 2.60vw;
+	position: absolute;
+	top: 12%;
+	left: 35%;
+	animation-name: grass;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.grass3 {
+	width: 3.65vw;
+	height: 2.60vw;
+	position: absolute;
+	top: 14%;
+	left: 35%;
+	animation-name: grass;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.grass4 {
+	width: 3.65vw;
+	height: 2.60vw;
+	position: absolute;
+	top: 15%;
+	left: 70%;
+	animation-name: grass;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.grass5 {
+	width: 3.65vw;
+	height: 2.60vw;
+	position: absolute;
+	top: 4%;
+	left: 95%;
+	animation-name: grass;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.grass-center {
+	position: absolute;
+	width: 0.63vw;
+	height: 2.60vw;
+	background: linear-gradient(175deg, rgb(20, 203, 10) 30%, rgb(20, 183, 10), rgb(20, 121, 10) 60%);
+	top: 7%;
+	left: 30%;
+	border-radius: 0% 120% 0% 100%;
+}
+
+.grass-left {
+	position: absolute;
+	width: 0.52vw;
+	height: 2.45vw;
+	background: linear-gradient(175deg, rgb(20, 203, 10) 30%, rgb(20, 183, 10), rgb(20, 121, 10) 60%);
+	top: 10%;
+	left: 10%;
+	border-radius: 0% 120% 0% 100%;
+	transform: rotate(-40deg) scaleX(1);
+	animation-name: grassl;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.grass-right {
+	position: absolute;
+	width: 0.52vw;
+	height: 2.34vw;
+	background: linear-gradient(175deg, rgb(20, 203, 10) 30%, rgb(20, 183, 10), rgb(20, 121, 10) 60%);
+	top: 10%;
+	left: 50%;
+	border-radius: 120% 0% 100% 0%;
+	transform: rotate(40deg) scaleX(-1);
+	animation-name: grassr;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.land {
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	background: linear-gradient(230deg, rgb(0, 73, 0) 30%, rgb(0, 43, 0), rgb(0, 21, 0) 60%);
+	top: 70%;
+}
+
+.land1 {
+	width: 83.33vw;
+	height: 33.85vw;
+	position: absolute;
+	background: linear-gradient(190deg, rgb(0, 163, 0) 30%, rgb(0, 73, 0), rgb(0, 41, 0) 75%);
+	border-radius: 0% 80% 0% 0%;
+	top: 60%;
+	left: 0%;
+	right: 100%;
+}
+
+.land2 {
+	width: 83.33vw;
+	height: 33.85vw;
+	position: absolute;
+	background: linear-gradient(175deg, rgb(20, 183, 10) 30%, rgb(20, 103, 10), rgb(20, 71, 10) 60%);
+	border-radius: 80% 0% 0% 0%;
+	top: 60%;
+	right: 0%;
+}
+
+.pro {
+	font-size: 3.13vw;
+	font-family: Impact;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+}
+
+.projects-grid {
+	width: 36.46vw;
+	height: 20.83vw;
+	position: absolute;
+	display: flex;
+	left: 29%;
+	top: 35%;
+	right: 0%;
+	bottom: 0%;
+	padding: 20px 10px;
+}
+
+.project-tile {
+	width: 18.23vwpx;
+	height: 20.83vw;
+	background: rgb(225, 225, 225);
+	margin: 10px;
+	border-radius: 20px;
+}
+
+.pro-img{ 
+	width: 18.23vw;
+	height: 15.63vw;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.project-title {
+	font-size: 1.30vw;
+	background: rgb(30, 30, 30);
+	text-align: center;
+}
+
+.contact {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.we{
+	font-size: 3.13vw;
+	font-family: Impact;
+	position: absolute;
+	top: 30%;
+	left: 33%;
+}
+
+.ll{
+	font-size: 1.56vw;
+	font-family: Impact;
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	color: rgb(215, 215, 215);
+}
+
+.contactme {
+	width: 50%;
+	height: 100px;
+	position: absolute;
+	top: 60%;
+	left: 42%;
+}
+
+a {
+	text-decoration: none;
+	font-family: Impact;
+	font-size: 1.56vw;
+	color: rgb(215, 215, 215);
+}
+
+i {
+	font-size: 1.56vw;
+	color: black;
+}
+
+footer {
+	font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    border-top: 4px solid black;
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+}
+
+.pf{
+	width: 40%;
+	font-size: 1.04vw;
+	font-family: Impact;
+	position: absolute;
+	left: 70%;
+	bottom: 0%;
+}
+
+.area{
+    background: radial-gradient(white,rgb(230, 230, 255));  
+    background: -webkit-linear-gradient(to left, rgb(215,215,215), rgb(205,205,205));  
+    width: 100%;
+    height:900px;
+    
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+li {
+	list-style-type: none;
+	color: rgb(215, 215, 215);
+	font-family: Impact;
+	font-size: 25px;
+	display: inline;
+	padding: 30px 30px 0 0;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(205, 205, 205, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 130px;
+    height: 130px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+@keyframes cloudf {
+	
+	0%{
+		transform: translateX(-200px);
+	}
+	
+	50%{
+		transform: translateX(2500px);
+	}
+	
+	100%{
+		transform: translateX(10000px);
+	}
+}
+
+@keyframes grass{
+	
+	0%{
+		transform: rotate(0deg);
+	}
+	
+	50%{
+		transform: rotate(5deg);
+	}
+	
+	100%{
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes grassr{
+	
+	0%{
+		transform: rotate(40deg);
+	}
+	
+	50%{
+		transform: rotate(45deg);
+	}
+	
+	100%{
+		transform: rotate(40deg);
+	}
+}
+
+@keyframes grassl{
+	
+	0%{
+		transform: rotate(-40deg);
+	}
+	
+	50%{
+		transform: rotate(-48deg);
+	}
+	
+	100%{
+		transform: rotate(-40deg);
+	}
+}
