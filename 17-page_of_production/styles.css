@@ -1,0 +1,239 @@
+header {
+  width: 100%;
+  height: 120px;
+  background-image: url("https://celes.club/uploads/posts/2022-06/1655798977_2-celes-club-p-korobka-tekstura-krasivo-2.jpg");
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 1px;
+  background-position: left, right;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: 25px;
+  list-style-type: none;
+  font-family: Marker Felt,fantasy;
+  color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+section {
+  padding-top: 120px;
+}
+
+#features .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 1px;
+    padding: 5px;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: Luminari, fantasy;
+  display: block;
+  font-weight: bold;
+  justify-content: flex-start;
+  text-align: justify;
+  vertical-align:top;
+}
+
+p {
+  font-size: 25px;
+  font-family: Luminari, fantasy;
+  display: block;
+}
+
+.prew {
+  font-size: 50px;
+  padding: 1px 140px 
+  2px;
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.sec {
+  margin-left: 220px;
+  margin-right: auto;
+}
+
+.pricing {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.product {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: 0.1s;
+  background-image: url("https://cdn.create.vista.com/api/media/small/1775886/stock-photo-cardboard");
+  padding: 10px 10px 20px 20px;
+  margin: 10px 20px 10px 10px;
+}
+
+.level {
+  padding: 40px 1px 1px 70px;
+  font-size: 20px;
+  font-family: DejaVu Sans Mono, monospace;
+}
+
+.vis {
+  font-size: 25px;
+  font-family: DejaVu Sans Mono, monospace;
+  padding: 10px 1px 10px 160px;
+}
+
+.aq {
+  font-size: 18px;
+  margin: 15px 1px 10px 34px;
+  left: 25px;
+  font-family: DejaVu Sans Mono, monospace;
+  list-style-type: none;
+}
+
+.grid {
+  display: flex;
+  padding: 0 120px;
+}
+
+.ab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	padding: 0 30px 10px;
+	vertical-align: middle;
+	padding: 30px;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+  padding: 300px;
+}
+
+#features {
+    margin-top: 30px;
+}
+
+#hero > h2  {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.fa{
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+   display: inline-block;
+   font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   line-height: 1;
+}
+
+input[type="email"] {
+  max-width: 275px;
+  font-size: 17px;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+input[type='submit'] {
+  width: 140px;
+  height: 50px;
+  font-size: 17px;
+  background-color: #ff32;
+  transition: background-color 1s;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #ff32;
+  padding: 1px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+  list-style-type: none;
+  font-family: DejaVu Sans Mono, monospace;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+icon {
+	display: flex;
+	padding: 0 0 10px 0;
+}
+
+@media (max-width: 1920px) and (min-width: 1739px) {
+  body {
+    background-image: url("https://kalix.club/uploads/posts/2022-12/1671661069_kalix-club-p-tekstura-korobki-instagram-32.jpg");
+    background-size: 800px 710px;
+  }
+}
+
+@media (max-width: 1740px) and (min-width: 1360px) {
+  body {
+    background-image: url("https://kalix.club/uploads/posts/2022-12/1671661069_kalix-club-p-tekstura-korobki-instagram-32.jpg");
+    background-size: 800px 750px;
+  }
+}
+
+@media (max-width: 1361px) and (min-width: 800px) {
+  body {
+    background-image: url("https://kalix.club/uploads/posts/2022-12/1671661069_kalix-club-p-tekstura-korobki-instagram-32.jpg");
+    background-size: 800px 800px;
+  }
+}
+
+@media (max-width: 799px) and (min-width: 1px) {
+  body {
+    background-image: url("https://kalix.club/uploads/posts/2022-12/1671661069_kalix-club-p-tekstura-korobki-instagram-32.jpg");
+    background-size: 800px 900px;
+  }
+}
