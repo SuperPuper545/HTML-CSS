@@ -1,3 +1,21 @@
 В данном репозитории прездставлены работы с разметкой HTML и стилями CSS на образовательной площадке freecodecamp.  
 На рисунке ниже представлен сертификат об успешном прохождении курса адаптивного веб-дизайна.  
 ![Certificate Responsive Web-Design](https://github.com/user-attachments/assets/dea0c879-ba14-42a5-b9a0-48199cff64ca)
+Ещё ниже представлены выполненые проекты:
+![image](https://github.com/user-attachments/assets/d80bfcd1-6652-469d-afcd-2d6936af5652)
+![image](https://github.com/user-attachments/assets/0008ab7a-67d6-48c6-831b-d3ae7a62bdc2)
+![image](https://github.com/user-attachments/assets/897d1efc-f025-46d3-9c3c-360877fa1d8b)
+![image](https://github.com/user-attachments/assets/3cd4707b-a88c-4355-abfe-fbc4a680f536)
+![image](https://github.com/user-attachments/assets/53616c44-86f1-401b-8462-6a1d02aebc0b)
+![image](https://github.com/user-attachments/assets/760252d1-ac18-414e-971c-960c23c11df3)
+![image](https://github.com/user-attachments/assets/ff923de9-dc11-4cff-b402-4b5ae3a47eb9)
+![image](https://github.com/user-attachments/assets/5d4c3f0d-4a2d-4d1e-b329-1a38d284f11e)
+![image](https://github.com/user-attachments/assets/5047113e-9e0f-4177-947c-6f8bf5a29ced)
+![image](https://github.com/user-attachments/assets/c4673c71-a492-4e2c-ba9a-83eccadb41e4)
+![image](https://github.com/user-attachments/assets/f6970c15-a017-4636-85f3-e8e9d09ef1b8)
+![image](https://github.com/user-attachments/assets/53e0cebc-e864-4cf7-ab15-54ade69ba8cf)
+![image](https://github.com/user-attachments/assets/f167b987-d949-4483-9131-401a97921e5b)
+![image](https://github.com/user-attachments/assets/c5610079-1381-4ee7-8001-f11a8e5d3b80)
+![image](https://github.com/user-attachments/assets/2eeec855-a75f-443d-9b0e-91ec409ace30)
+![image](https://github.com/user-attachments/assets/4290c8cc-5606-49d7-bbe3-23afc4382c94)
+![Uploading image.png…]()
